@@ -3,4 +3,7 @@
 #alternative option to run the server - python -m streamlit run filename.py
 import streamlit as st
 
-st.title('Welcome to Titanic Dashboard')
+st.markdown('<h1 style="color:yellow; border: 2px solid white; text-align:center">' \
+'Welcome to Titanic Dashboard</h1>',unsafe_allow_html=True)
+
+st.image('assets\OIP.jpg')
